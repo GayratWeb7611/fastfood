@@ -5,9 +5,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 
-import img1 from '../../assist/slider_imgs/Баннер Сайт_1.png'
-import img2 from '../../assist/slider_imgs/Баннер Сайт_2.png'
-import img3 from '../../assist/slider_imgs/Баннер Сайт_3.png'
+import img1 from '../../assist/slider_imgs/Баннер-Сайт_1.png'
+import img2 from '../../assist/slider_imgs/Баннер-Сайт_2.png'
+import img3 from '../../assist/slider_imgs/Баннер-Сайт_3.png'
 
 
 export default function MySlider() {
