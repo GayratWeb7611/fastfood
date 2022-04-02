@@ -5,7 +5,7 @@ import AddToCard from "./assist/add_to_cart";
 import MoreDesc from "./assist/more_description";
 const { Meta } = Card;
 const MyCard = ({product})=>{
-    console.log(product);
+    
     return<>
             {
         <div className={styles.card}>
