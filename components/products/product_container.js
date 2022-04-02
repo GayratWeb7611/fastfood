@@ -4,8 +4,8 @@ import MyCard from "./product_card";
 const Products = ({products})=>{
     
     return<>
-        <h1 style={{textAlign: 'center' , marginTop: '50px'}}>Products </h1>      
-        <div className={styles.container} id='product'>
+        <h1 id='product' style={{textAlign: 'center' , marginTop: '50px'}}>Products </h1>      
+        <div className={styles.container} >
 
     {
         products.map((item,index)=>(<MyCard product={item} key={index} />))
