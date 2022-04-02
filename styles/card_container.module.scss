@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-top: 100px;
+    grid-row-gap: 30px;
+    @media (max-width: 900px) {
+        grid-template-columns: 1fr 1fr ;
+        
+    }
+    @media (max-width: 550px) {
+        grid-template-columns: 1fr;
+    }
+    .card{
+        width: 350px;
+        margin: 0 auto;
+        @media (max-width: 1150px) {
+           width: 300px;
+            
+        }
+        @media (max-width: 1000px) {
+           width: 280px;
+            
+        }
+        @media (max-width: 1000px) {
+           width: 250px;
+            
+        }
+    }
+}
